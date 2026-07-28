@@ -1,0 +1,16 @@
+/* 긴 글을 읽고 쓰기 편하도록 본문 폭과 한글 줄바꿈을 조정합니다. */
+.markdown-source-view.mod-cm6 .cm-scroller,
+.markdown-preview-view {
+  line-height: 1.75;
+}
+
+.markdown-rendered-view p,
+.markdown-rendered-view li {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+.markdown-source-view.mod-cm6.is-readable-line-width .cm-sizer,
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+  max-width: 820px;
+}

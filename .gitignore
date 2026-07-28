@@ -1,0 +1,25 @@
+# Build output and dependencies
+node_modules/
+public/
+.quartz/
+.quartz-cache/
+prof/
+tsconfig.tsbuildinfo
+
+# Local/editor state
+.DS_Store
+Thumbs.db
+content/.obsidian/workspace*.json
+content/.obsidian/cache/
+content/.obsidian/plugins/
+
+# Never publish or commit private material
+content/private/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Generated locally by the Obsidian publishing bridge
+.blog-sync-manifest.json
