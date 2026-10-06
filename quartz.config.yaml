@@ -288,7 +288,11 @@ layout:
         beforeBody: []
         left: []
         right: []
-    content: {}
+    content:
+      # 글 화면에는 본문만 보이도록 양옆 사이드바를 비웁니다.
+      positions:
+        left: []
+        right: []
     folder:
       exclude:
         - reader-mode
